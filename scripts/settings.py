@@ -13,13 +13,13 @@ platformio_target = "Artillery_Ruby"
 # Set to True if you want to use Configuration files from somewhere else, 
 # you will need to specify marlin_configuration_h and marlin_configuration_adv_h below
 # Set to False to use the default configuration found in the config/ folder
-use_custom_config = False
+use_custom_config = True
 
 # URL of Configuration.h file, only used if use_custom_config is True. This is the Marlin projects example.
-marlin_configuration_h = "https://github.com/MarlinFirmware/Configurations/raw/bugfix-2.1.x/config/examples/Artillery/Sidewinder%20X2/Configuration.h"
+marlin_configuration_h = "https://raw.githubusercontent.com/Nadias-jp/Configurations/release-2.1.2.1/config/examples/Artillery/Sidewinder%20X2/Configuration.h"
 
 # URL of Configuration_adv.h file, only used it use_custom_config is True. This is the Marlin projects example.
-marlin_configuration_adv_h = "https://github.com/MarlinFirmware/Configurations/raw/bugfix-2.1.x/config/examples/Artillery/Sidewinder%20X2/Configuration_adv.h"
+marlin_configuration_adv_h = "https://raw.githubusercontent.com/Nadias-jp/Configurations/release-2.1.2.1/config/examples/Artillery/Sidewinder%20X2/Configuration_adv.h"
 
 # If the configurations live in a private github repo, add your PAT here
 personal_access_token = "" # Leave blank for public repos
